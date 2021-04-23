@@ -53,7 +53,7 @@ const locations = await parse(data);
 return locations;
 
 }
-export default {
+module.exports={
     download,
     parse,
     downloadAndParse
