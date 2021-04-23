@@ -71,8 +71,9 @@ async function downloadAndParse(){
 return locations;
 
 }
-module.exports={
+
+export {
     download,
     parse,
     downloadAndParse
-}
+  }
