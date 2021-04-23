@@ -1,6 +1,5 @@
 
 const data = require('./data.js')
-import downloadAndParse from './data';
 const timeSeries = require('./time-series.js')
 const express = require('express')
 const cors = require('cors')
