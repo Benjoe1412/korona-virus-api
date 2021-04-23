@@ -1,7 +1,7 @@
 
 const data = require('./data.js')
 const timeSeries = require('./time-series.js')
-const express = require('express')
+
 const cors = require('cors')
 
 
@@ -19,7 +19,7 @@ setInterval(async () => {
     locationsTimeSeries = await timeSeries.downloadAndParse();
 },1000 * 60 * 60 * 4)
 
-const app = express()
+
 app.use(cors());
 
 app.get('/data',(req, res) => {
