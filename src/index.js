@@ -1,9 +1,9 @@
 
 const data = require('./data.js')
 const timeSeries = require('./time-series.js')
-
+const express = require('express')
 const cors = require('cors')
-
+var router = express.Router();
 
 
 async function run(){
@@ -19,22 +19,22 @@ setInterval(async () => {
     locationsTimeSeries = await timeSeries.downloadAndParse();
 },1000 * 60 * 60 * 4)
 
-
+const app = express()
 app.use(cors());
 
-app.get('/data',(req, res) => {
+router.get('/data',(req, res) => {
     res.json(locations);
 })
 
-app.get('/time-series',(req, res) => {
+router.get('/time-series',(req, res) => {
     res.json(locationsTimeSeries);
 })
 
-app.listen(8000, () => {
+router.listen(8000, () => {
     console.log('server is running')
 })
 
-app.get('/',(req,res) => {
+router.get('/',(req,res) => {
 
     res.send('Hello World!');
 })
