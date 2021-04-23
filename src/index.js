@@ -1,5 +1,6 @@
 
-const data = require('./data.js')
+//const data = require('./data.js')
+import downloadAndParse from './data';
 const timeSeries = require('./time-series.js')
 const express = require('express')
 const cors = require('cors')
@@ -7,10 +8,10 @@ const cors = require('cors')
 
 
 async function run(){
-let locations = await data.downloadAndParse();
+let locations = await downloadAndParse();
 
 setInterval(async () => {
-    locations = await data.downloadAndParse();
+    locations = await downloadAndParse();
 },1000 * 60 * 60 * 4)
 
 let locationsTimeSeries = await timeSeries.downloadAndParse();

@@ -54,7 +54,7 @@ return locations;
 
 }
 
-module.exports = {
+export default {
     download,
     parse,
     downloadAndParse
