@@ -53,6 +53,6 @@ const locations = await parse(data);
 return locations;
 
 }
-exports.download = download;
-exports.parse = download;
-exports.downloadAndParse = download;
+module.exports.download = download;
+module.exports.parse = download;
+module.exports.downloadAndParse = download;
