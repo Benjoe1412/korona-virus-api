@@ -71,3 +71,9 @@ async function downloadAndParse(){
 return locations;
 
 }
+export default {
+    download,
+    parse,
+    downloadAndParse
+
+}
