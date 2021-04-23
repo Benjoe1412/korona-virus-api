@@ -72,7 +72,7 @@ return locations;
 
 }
 
-export {
+module.exports = {
     download,
     parse,
     downloadAndParse
