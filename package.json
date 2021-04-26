@@ -1,6 +1,6 @@
 {
   "name": "korona-virus-api",
-  "homepage": "https://benjoe1412.github.io/korona-virus-api",
+  "homepage": "https://localhost",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
