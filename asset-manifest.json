@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.be92a5c5.chunk.js",
-    "main.js.map": "/static/js/main.be92a5c5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e380a52b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e380a52b.js.map",
-    "static/js/2.9424fac4.chunk.js": "/static/js/2.9424fac4.chunk.js",
-    "static/js/2.9424fac4.chunk.js.map": "/static/js/2.9424fac4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.9424fac4.chunk.js.LICENSE.txt": "/static/js/2.9424fac4.chunk.js.LICENSE.txt"
+    "main.js": "/korona-virus-map/static/js/main.be92a5c5.chunk.js",
+    "main.js.map": "/korona-virus-map/static/js/main.be92a5c5.chunk.js.map",
+    "runtime-main.js": "/korona-virus-map/static/js/runtime-main.82358b94.js",
+    "runtime-main.js.map": "/korona-virus-map/static/js/runtime-main.82358b94.js.map",
+    "static/js/2.0a2f28d5.chunk.js": "/korona-virus-map/static/js/2.0a2f28d5.chunk.js",
+    "static/js/2.0a2f28d5.chunk.js.map": "/korona-virus-map/static/js/2.0a2f28d5.chunk.js.map",
+    "index.html": "/korona-virus-map/index.html",
+    "static/js/2.0a2f28d5.chunk.js.LICENSE.txt": "/korona-virus-map/static/js/2.0a2f28d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e380a52b.js",
-    "static/js/2.9424fac4.chunk.js",
+    "static/js/runtime-main.82358b94.js",
+    "static/js/2.0a2f28d5.chunk.js",
     "static/js/main.be92a5c5.chunk.js"
   ]
 }
